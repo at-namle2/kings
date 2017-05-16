@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  font-size: 14px;
+  font-family: "Open Sans",sans-serif;
+  line-height: 1.4;
+  color: map-get($color, black_1);
+}
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: "Oswald",sans-serif;
+}
+.container  {
+  width: 1140px;
+  margin: 0 auto;
+}
+.clear {
+  clear: both;
+}
