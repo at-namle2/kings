@@ -7,7 +7,7 @@
       .menu-item {
         list-style: none;
         display: inline-block;
-        padding: 0 14px;
+        padding-right: 18px;
         a {
           text-decoration: none;
           letter-spacing: 0;
@@ -15,6 +15,9 @@
           text-transform: uppercase;
           color: map-get($color, black_1);
           font-weight: 700;
+        }
+        i {
+          margin-left: 8px;
         }
       }
     }
@@ -30,7 +33,7 @@
       .navbar-item {
         list-style: none;
         display: inline-block;
-        padding: 0 14px;
+        padding-left: 44px;
         a {
           text-decoration: none;
           letter-spacing: 0;
@@ -49,5 +52,11 @@
         }
       }
     }
+  }
+}
+.slide {
+  margin: 25px 0 70px;
+  img {
+    width: 1124px;
   }
 }

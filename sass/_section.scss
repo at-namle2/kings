@@ -1,0 +1,113 @@
+.content_breakcrum {
+  display: block;
+  text-align: center;
+  h2 {
+    color: map-get($color, black_1);
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+  .list {
+    margin: 0;
+    padding: 0;
+    .list-item {
+      display: inline-block;
+      list-style: none;
+      a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 12px;
+        color: map-get($color, gray);
+      }
+    }
+    .list-item:last-child {
+      a {
+        color: map-get($color, black_1);
+      }
+    }
+  }
+}
+.alphabe-content {
+  margin: 40px 0 70px;
+  .sort-by {
+    display: inline-block;
+    .btn-large {
+      width: 44px;
+      height: 44px;
+      background: map-get($color, black);
+      outline: none;
+      border: none;
+      cursor: pointer;
+      .fas {
+        color: map-get($color, white);
+      }
+    }
+    .large {
+      margin-left: 5px;
+      background: map-get($color, white);
+      border: 1px solid map-get($color, black);
+      .fas {
+        color: map-get($color, black);
+      }
+    }
+    .select {
+      width: 175px;
+      height: 44px;
+      outline: none;
+      border: 1px solid map-get($color, black_1);
+      background: map-get($color, white);
+      border-radius: 0px;
+      color: map-get($color, black_1);
+      margin-left: 20px;
+      display: inline-block;
+    }
+  }
+  .title-showing {
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+.gelarry {
+  width: 100%;
+  display: inline-block;
+  .gelarry-item {
+    float: left;
+    margin: 0 10px;
+    img {
+      width: 265px;
+      height: 300px;
+    }
+    .desc-content {
+      display: block;
+      text-align: center;
+      .start {
+        margin: 20px 0 20px;
+        display: block;
+      }
+      .title-p {
+        a {
+          font-size: 16px;
+          text-decoration: none;
+          text-transform: capitalize;
+          font-weight: 700;
+          color: map-get($color, black_1);
+        }
+      }
+    }
+    .desc {
+      display: inline-block;
+      padding: 10px;
+      margin-bottom: 25px;
+      .price-news {
+        font-size: 18px;
+      }
+      .price-old {
+        margin-left: 8px;
+        font-size: 13px;
+        text-decoration: line-through;
+        color: map-get($color, gray_1);
+      }
+    }
+  }
+}
