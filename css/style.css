@@ -19,6 +19,47 @@ h1, h2, h3, h4, h5, h6 {
 .clear {
   clear: both; }
 
+.wrapper-header {
+  margin-top: 25px; }
+  .wrapper-header .primary-menu .menu {
+    padding: 0;
+    margin: 0; }
+    .wrapper-header .primary-menu .menu .menu-item {
+      list-style: none;
+      display: inline-block;
+      padding: 0 14px; }
+      .wrapper-header .primary-menu .menu .menu-item a {
+        text-decoration: none;
+        letter-spacing: 0;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #222222;
+        font-weight: 700; }
+  .wrapper-header .logo {
+    display: block;
+    text-align: center; }
+  .wrapper-header .card .navbar {
+    padding: 0;
+    margin: 0; }
+    .wrapper-header .card .navbar .navbar-item {
+      list-style: none;
+      display: inline-block;
+      padding: 0 14px; }
+      .wrapper-header .card .navbar .navbar-item a {
+        text-decoration: none;
+        letter-spacing: 0;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #222222;
+        font-weight: 700; }
+      .wrapper-header .card .navbar .navbar-item .item-card {
+        padding: 2px 8px;
+        background: #e84546;
+        color: #fff;
+        font-size: 12px;
+        border-radius: 50%;
+        margin-left: 5px; }
+
 .row::after {
   content: '';
   clear: both;

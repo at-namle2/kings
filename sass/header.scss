@@ -1,0 +1,53 @@
+.wrapper-header {
+  margin-top: 25px;
+  .primary-menu {
+    .menu {
+      padding: 0;
+      margin: 0;
+      .menu-item {
+        list-style: none;
+        display: inline-block;
+        padding: 0 14px;
+        a {
+          text-decoration: none;
+          letter-spacing: 0;
+          line-height: 50px;
+          text-transform: uppercase;
+          color: map-get($color, black_1);
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  .logo {
+    display: block;
+    text-align: center;
+  }
+  .card {
+    .navbar {
+      padding: 0;
+      margin: 0;
+      .navbar-item {
+        list-style: none;
+        display: inline-block;
+        padding: 0 14px;
+        a {
+          text-decoration: none;
+          letter-spacing: 0;
+          line-height: 50px;
+          text-transform: uppercase;
+          color: map-get($color, black_1);
+          font-weight: 700;
+        }
+        .item-card {
+          padding: 2px 8px;
+          background: map-get($color, red);
+          color: map-get($color, white);
+          font-size: 12px;
+          border-radius: 50%;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}
