@@ -40,6 +40,7 @@
       cursor: pointer;
       .fas {
         color: map-get($color, white);
+        font-size: 18px;
       }
     }
     .large {
@@ -50,16 +51,21 @@
         color: map-get($color, black);
       }
     }
-    .select {
-      width: 175px;
-      height: 44px;
-      outline: none;
-      border: 1px solid map-get($color, black_1);
-      background: map-get($color, white);
-      border-radius: 0px;
-      color: map-get($color, black_1);
-      margin-left: 20px;
+    .border-select {
       display: inline-block;
+      border: 1px solid map-get($color, black_1);
+      margin-left: 25px;
+      .select {
+        width: 175px;
+        height: 44px;
+        outline: none;
+        border:  none;
+        background: map-get($color, white);
+        border-radius: 0px;
+        color: map-get($color, black_1);
+        margin-left: 20px;
+        display: inline-block;
+     }
     }
   }
   .title-showing {
@@ -107,6 +113,143 @@
         font-size: 13px;
         text-decoration: line-through;
         color: map-get($color, gray_1);
+      }
+    }
+    .product {
+      display: inline-block;
+      position: relative;
+      .label-p {
+        background: map-get($color, green);
+        color: #ffffff;
+        text-transform: uppercase;
+        line-height: 30px;
+        font-size: 12px;
+        position: absolute;
+        top: 20px;
+        left: 25px;
+        width: 51px;
+        height: 29px;
+        padding-left: 18px;
+      }
+      .label-p:last-child {
+        background: map-get($color, orange);
+        color: #ffffff;
+        text-transform: uppercase;
+        line-height: 30px;
+        font-size: 12px;
+        position: absolute;
+        top: 60px;
+        left: 25px;
+        width: 51px;
+        height: 29px;
+        padding-left: 18px;
+      }
+      .images {
+        opacity: 1;
+        display: block;
+        height: auto;
+        transition: .5s ease;
+        &:hover {
+          opacity: 0.3;
+        }
+      }
+      .middle {
+        width: 100%;
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 58%;
+        transform: translate(-50%, -50%);
+        &:hover {
+          opacity: 1;
+        }
+      .only {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        .only-item:first-child {
+          display: inline-block;
+          background-color: map-get($color, white);
+          color: white;
+          font-size: 16px;
+          width: 44px;
+          height: 44px;
+          margin-right: 5px;
+          &:hover {
+            background: map-get($color, red);
+          }
+          a {
+            margin: 15px 9px;
+            display: inline-block;
+          }
+          i {
+            color: map-get($color, black);
+            margin-left: 4px;
+            font-size: 16px;
+            &:hover {
+              color: map-get($color, white);
+            }
+          }
+        }
+        .only-item {
+          display: inline-block;
+          vertical-align: bottom;
+          background-color: map-get($color, white);
+          color: white;
+          font-size: 16px;
+          width: 110px;
+          height: 44px;
+          margin-right: 5px;
+          border: 1px solid map-get($color, black_1);
+          &:hover {
+            background: map-get($color, red);
+          }
+          a {
+            margin: 15px 8px;
+            display: inline-block;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 12px;
+            color: map-get($color, black);
+            &:hover {
+              color: map-get($color, white);
+            }
+          }
+          i {
+            color: map-get($color, black);
+            margin-left: 4px;
+            font-size: 16px;
+            &:hover {
+              color: map-get($color, white);
+            }
+          }
+        }
+        .only-item:last-child {
+          display: inline-block;
+          background-color: map-get($color, white);
+          color: white;
+          font-size: 16px;
+          width: 44px;
+          height: 44px;
+          margin-right: 5px;
+          &:hover {
+            background: map-get($color, red);
+          }
+          a {
+            margin: 15px 9px;
+            display: inline-block;
+          }
+          i {
+            color: map-get($color, black);
+            margin-left: 4px;
+            font-size: 16px;
+            &:hover {
+              color: map-get($color, white);
+            }
+          }
+        }
+        }
       }
     }
   }

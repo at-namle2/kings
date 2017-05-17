@@ -101,23 +101,28 @@ h1, h2, h3, h4, h5, h6 {
       border: none;
       cursor: pointer; }
       .alphabe-content .sort-by .btn-large .fas {
-        color: #fff; }
+        color: #fff;
+        font-size: 18px; }
     .alphabe-content .sort-by .large {
       margin-left: 5px;
       background: #fff;
       border: 1px solid #000; }
       .alphabe-content .sort-by .large .fas {
         color: #000; }
-    .alphabe-content .sort-by .select {
-      width: 175px;
-      height: 44px;
-      outline: none;
+    .alphabe-content .sort-by .border-select {
+      display: inline-block;
       border: 1px solid #222222;
-      background: #fff;
-      border-radius: 0px;
-      color: #222222;
-      margin-left: 20px;
-      display: inline-block; }
+      margin-left: 25px; }
+      .alphabe-content .sort-by .border-select .select {
+        width: 175px;
+        height: 44px;
+        outline: none;
+        border: none;
+        background: #fff;
+        border-radius: 0px;
+        color: #222222;
+        margin-left: 20px;
+        display: inline-block; }
   .alphabe-content .title-showing {
     text-align: right;
     text-transform: uppercase;
@@ -155,6 +160,119 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 13px;
         text-decoration: line-through;
         color: #b5b5b5; }
+    .gelarry .gelarry-item .product {
+      display: inline-block;
+      position: relative; }
+      .gelarry .gelarry-item .product .label-p {
+        background: #8bd485;
+        color: #ffffff;
+        text-transform: uppercase;
+        line-height: 30px;
+        font-size: 12px;
+        position: absolute;
+        top: 20px;
+        left: 25px;
+        width: 51px;
+        height: 29px;
+        padding-left: 18px; }
+      .gelarry .gelarry-item .product .label-p:last-child {
+        background: #f1ab5f;
+        color: #ffffff;
+        text-transform: uppercase;
+        line-height: 30px;
+        font-size: 12px;
+        position: absolute;
+        top: 60px;
+        left: 25px;
+        width: 51px;
+        height: 29px;
+        padding-left: 18px; }
+      .gelarry .gelarry-item .product .images {
+        opacity: 1;
+        display: block;
+        height: auto;
+        transition: .5s ease; }
+        .gelarry .gelarry-item .product .images:hover {
+          opacity: 0.3; }
+      .gelarry .gelarry-item .product .middle {
+        width: 100%;
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 58%;
+        transform: translate(-50%, -50%); }
+        .gelarry .gelarry-item .product .middle:hover {
+          opacity: 1; }
+        .gelarry .gelarry-item .product .middle .only {
+          list-style: none;
+          margin: 0;
+          padding: 0; }
+          .gelarry .gelarry-item .product .middle .only .only-item:first-child {
+            display: inline-block;
+            background-color: #fff;
+            color: white;
+            font-size: 16px;
+            width: 44px;
+            height: 44px;
+            margin-right: 5px; }
+            .gelarry .gelarry-item .product .middle .only .only-item:first-child:hover {
+              background: #e84546; }
+            .gelarry .gelarry-item .product .middle .only .only-item:first-child a {
+              margin: 15px 9px;
+              display: inline-block; }
+            .gelarry .gelarry-item .product .middle .only .only-item:first-child i {
+              color: #000;
+              margin-left: 4px;
+              font-size: 16px; }
+              .gelarry .gelarry-item .product .middle .only .only-item:first-child i:hover {
+                color: #fff; }
+          .gelarry .gelarry-item .product .middle .only .only-item {
+            display: inline-block;
+            vertical-align: bottom;
+            background-color: #fff;
+            color: white;
+            font-size: 16px;
+            width: 110px;
+            height: 44px;
+            margin-right: 5px;
+            border: 1px solid #222222; }
+            .gelarry .gelarry-item .product .middle .only .only-item:hover {
+              background: #e84546; }
+            .gelarry .gelarry-item .product .middle .only .only-item a {
+              margin: 15px 8px;
+              display: inline-block;
+              text-decoration: none;
+              text-transform: uppercase;
+              font-size: 12px;
+              color: #000; }
+              .gelarry .gelarry-item .product .middle .only .only-item a:hover {
+                color: #fff; }
+            .gelarry .gelarry-item .product .middle .only .only-item i {
+              color: #000;
+              margin-left: 4px;
+              font-size: 16px; }
+              .gelarry .gelarry-item .product .middle .only .only-item i:hover {
+                color: #fff; }
+          .gelarry .gelarry-item .product .middle .only .only-item:last-child {
+            display: inline-block;
+            background-color: #fff;
+            color: white;
+            font-size: 16px;
+            width: 44px;
+            height: 44px;
+            margin-right: 5px; }
+            .gelarry .gelarry-item .product .middle .only .only-item:last-child:hover {
+              background: #e84546; }
+            .gelarry .gelarry-item .product .middle .only .only-item:last-child a {
+              margin: 15px 9px;
+              display: inline-block; }
+            .gelarry .gelarry-item .product .middle .only .only-item:last-child i {
+              color: #000;
+              margin-left: 4px;
+              font-size: 16px; }
+              .gelarry .gelarry-item .product .middle .only .only-item:last-child i:hover {
+                color: #fff; }
 
 .wrapper-footer {
   background: #222222;
@@ -163,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 120px; }
   .wrapper-footer .f-ter {
     height: 160px;
-    border-bottom: 1px solid #7f7f7f; }
+    border-bottom: 1px solid #393939; }
     .wrapper-footer .f-ter .mary .menu-f {
       margin: 0;
       padding: 0; }
