@@ -15,9 +15,15 @@
           text-transform: uppercase;
           color: map-get($color, black_1);
           font-weight: 700;
+          &:hover {
+            color: map-get($color,red);
+          }
         }
         i {
           margin-left: 8px;
+          &:hover {
+            transform: rotate(-180deg);
+          }
         }
       }
       .sub-menu {
@@ -57,7 +63,6 @@
       background-color: #fff;
       padding: 8px 14px;
       top: 76px;
-      left: 330px;
       list-style: none;
       line-height: 1.5;
       .sub-menu-item1 {
@@ -77,6 +82,49 @@
       }
     }
     .menu-item:hover .sub-menu1 {
+      display: block;
+    }
+    .menu-sub-menu {
+      position: absolute;
+      display: none;
+      width: 600px;
+      height: 200px;
+      background-color: map-get($color, white);
+      top: 76px;
+      list-style: none;
+      .menu-menu {
+        .title-menu {
+          font-size: 22px;
+          text-transform: capitalize;
+          color: map-get($color, black);
+          margin-top: 0;
+          margin-bottom: 10px;
+          padding-left: 10px;
+        }
+        .level-level {
+          margin: 0;
+          .level-level-item {
+            text-align: left;
+            padding: 10px 0px;
+            list-style: none;
+            display: block;
+            a {
+              color: map-get($color, gray_4);
+              padding: 0 12px;
+              text-decoration: none;
+              font-size: 14px;
+              text-align: left;
+              text-transform: capitalize;
+              line-height: 0;
+              &:hover {
+                color: map-get($color, red);
+              }
+            }
+          }
+        }
+      }
+    }
+    .menu-item:hover .menu-sub-menu {
       display: block;
     }
   }

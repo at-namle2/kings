@@ -65,9 +65,9 @@
         color: map-get($color, black_1);
         margin-left: 20px;
         display: inline-block;
+       }
      }
-    }
-  }
+   }
   .title-showing {
     text-align: right;
     text-transform: uppercase;
@@ -247,8 +247,8 @@
             &:hover {
               color: map-get($color, white);
             }
+           }
           }
-        }
         }
       }
     }

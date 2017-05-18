@@ -35,8 +35,12 @@ h1, h2, h3, h4, h5, h6 {
         text-transform: uppercase;
         color: #222222;
         font-weight: 700; }
+        .wrapper-header .primary-menu .menu .menu-item a:hover {
+          color: #e84546; }
       .wrapper-header .primary-menu .menu .menu-item i {
         margin-left: 8px; }
+        .wrapper-header .primary-menu .menu .menu-item i:hover {
+          transform: rotate(-180deg); }
     .wrapper-header .primary-menu .menu .sub-menu {
       position: absolute;
       display: none;
@@ -48,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
       list-style: none;
       line-height: 1.5; }
       .wrapper-header .primary-menu .menu .sub-menu .sub-menu-item a {
-        color: #414141;
+        color: #666666;
         padding: 0 12px;
         text-decoration: none;
         display: block;
@@ -68,11 +72,10 @@ h1, h2, h3, h4, h5, h6 {
       background-color: #fff;
       padding: 8px 14px;
       top: 76px;
-      left: 330px;
       list-style: none;
       line-height: 1.5; }
       .wrapper-header .primary-menu .menu .sub-menu1 .sub-menu-item1 a {
-        color: #414141;
+        color: #666666;
         padding: 0 12px;
         text-decoration: none;
         display: block;
@@ -83,6 +86,40 @@ h1, h2, h3, h4, h5, h6 {
         .wrapper-header .primary-menu .menu .sub-menu1 .sub-menu-item1 a:hover {
           color: #e84546; }
     .wrapper-header .primary-menu .menu .menu-item:hover .sub-menu1 {
+      display: block; }
+    .wrapper-header .primary-menu .menu .menu-sub-menu {
+      position: absolute;
+      display: none;
+      width: 600px;
+      height: 200px;
+      background-color: #fff;
+      top: 76px;
+      list-style: none; }
+      .wrapper-header .primary-menu .menu .menu-sub-menu .menu-menu .title-menu {
+        font-size: 22px;
+        text-transform: capitalize;
+        color: #000;
+        margin-top: 0;
+        margin-bottom: 10px;
+        padding-left: 10px; }
+      .wrapper-header .primary-menu .menu .menu-sub-menu .menu-menu .level-level {
+        margin: 0; }
+        .wrapper-header .primary-menu .menu .menu-sub-menu .menu-menu .level-level .level-level-item {
+          text-align: left;
+          padding: 10px 0px;
+          list-style: none;
+          display: block; }
+          .wrapper-header .primary-menu .menu .menu-sub-menu .menu-menu .level-level .level-level-item a {
+            color: #666666;
+            padding: 0 12px;
+            text-decoration: none;
+            font-size: 14px;
+            text-align: left;
+            text-transform: capitalize;
+            line-height: 0; }
+            .wrapper-header .primary-menu .menu .menu-sub-menu .menu-menu .level-level .level-level-item a:hover {
+              color: #e84546; }
+    .wrapper-header .primary-menu .menu .menu-item:hover .menu-sub-menu {
       display: block; }
   .wrapper-header .logo {
     display: block;
