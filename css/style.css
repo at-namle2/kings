@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
       list-style: none;
       line-height: 1.5; }
       .wrapper-header .primary-menu .menu .sub-menu .sub-menu-item a {
-        color: #414141;
+        color: #666666;
         padding: 0 12px;
         text-decoration: none;
         display: block;
@@ -68,11 +68,10 @@ h1, h2, h3, h4, h5, h6 {
       background-color: #fff;
       padding: 8px 14px;
       top: 76px;
-      left: 330px;
       list-style: none;
       line-height: 1.5; }
       .wrapper-header .primary-menu .menu .sub-menu1 .sub-menu-item1 a {
-        color: #414141;
+        color: #666666;
         padding: 0 12px;
         text-decoration: none;
         display: block;
