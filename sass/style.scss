@@ -1,5 +1,8 @@
 @import 'variable';
 @import 'global';
+@import 'header';
+@import 'section';
+@import 'footer';
 .row::after {
   content: '';
   clear: both;
@@ -21,4 +24,3 @@
     width: (100% -(12/$i - 1) * 2.6) / (12/$i);
   }
 }
-
