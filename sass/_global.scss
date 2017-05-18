@@ -2,9 +2,9 @@
   margin: 0;
   padding: 0;
 }
-.body {
+body {
   font-size: 14px;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height: 1.4;
   color: map-get($color, black_1);
 }

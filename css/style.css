@@ -2,9 +2,9 @@
   margin: 0;
   padding: 0; }
 
-.body {
+body {
   font-size: 14px;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height: 1.4;
   color: #222222; }
 
@@ -37,6 +37,53 @@ h1, h2, h3, h4, h5, h6 {
         font-weight: 700; }
       .wrapper-header .primary-menu .menu .menu-item i {
         margin-left: 8px; }
+    .wrapper-header .primary-menu .menu .sub-menu {
+      position: absolute;
+      display: none;
+      width: 160px;
+      height: 250px;
+      background-color: #fff;
+      padding: 8px 14px;
+      top: 76px;
+      list-style: none;
+      line-height: 1.5; }
+      .wrapper-header .primary-menu .menu .sub-menu .sub-menu-item a {
+        color: #414141;
+        padding: 0 12px;
+        text-decoration: none;
+        display: block;
+        cursor: pointer;
+        font-size: 14px;
+        text-align: left;
+        text-transform: capitalize; }
+        .wrapper-header .primary-menu .menu .sub-menu .sub-menu-item a:hover {
+          color: #e84546; }
+    .wrapper-header .primary-menu .menu .menu-item:hover .sub-menu {
+      display: block; }
+    .wrapper-header .primary-menu .menu .sub-menu1 {
+      position: absolute;
+      display: none;
+      width: 160px;
+      height: 250px;
+      background-color: #fff;
+      padding: 8px 14px;
+      top: 76px;
+      left: 330px;
+      list-style: none;
+      line-height: 1.5; }
+      .wrapper-header .primary-menu .menu .sub-menu1 .sub-menu-item1 a {
+        color: #414141;
+        padding: 0 12px;
+        text-decoration: none;
+        display: block;
+        cursor: pointer;
+        font-size: 14px;
+        text-align: left;
+        text-transform: capitalize; }
+        .wrapper-header .primary-menu .menu .sub-menu1 .sub-menu-item1 a:hover {
+          color: #e84546; }
+    .wrapper-header .primary-menu .menu .menu-item:hover .sub-menu1 {
+      display: block; }
   .wrapper-header .logo {
     display: block;
     text-align: center; }
@@ -46,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
     .wrapper-header .card .navbar .navbar-item {
       list-style: none;
       display: inline-block;
-      padding-left: 44px; }
+      padding-left: 52px; }
       .wrapper-header .card .navbar .navbar-item a {
         text-decoration: none;
         letter-spacing: 0;
@@ -157,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 18px; }
       .gelarry .gelarry-item .desc .price-old {
         margin-left: 8px;
-        font-size: 13px;
+        font-size: 14px;
         text-decoration: line-through;
         color: #b5b5b5; }
     .gelarry .gelarry-item .product {
@@ -295,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
           line-height: 46px;
           color: #7f7f7f; }
           .wrapper-footer .f-ter .mary .menu-f .menu-f-item a:hover {
-            border-bottom: 3px solid #e84546;
+            border-bottom: 1px solid #e84546;
             color: #e84546; }
   .wrapper-footer .logo {
     display: block;
