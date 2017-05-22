@@ -9,3 +9,14 @@
   list-style: none;
   line-height: 1.5;
 }
+%label-p {
+  color: map-get($color, white);
+  text-transform: uppercase;
+  line-height: 30px;
+  font-size: 12px;
+  position: absolute;
+  left: 25px;
+  width: 51px;
+  height: 29px;
+  padding-left: 18px;
+}

@@ -61,8 +61,8 @@
         outline: none;
         border:  none;
         background: map-get($color, white);
-        border-radius: 0px;
         color: map-get($color, black_1);
+        border-radius: 0px;
         margin-left: 20px;
         display: inline-block;
        }
@@ -120,29 +120,13 @@
       position: relative;
       .label-p {
         background: map-get($color, green);
-        color: map-get($color, white);
-        text-transform: uppercase;
-        line-height: 30px;
-        font-size: 12px;
-        position: absolute;
         top: 20px;
-        left: 25px;
-        width: 51px;
-        height: 29px;
-        padding-left: 18px;
+        @extend %label-p;
       }
       .label-p:last-child {
         background: map-get($color, orange);
-        color: map-get($color, white);
-        text-transform: uppercase;
-        line-height: 30px;
-        font-size: 12px;
-        position: absolute;
         top: 60px;
-        left: 25px;
-        width: 51px;
-        height: 29px;
-        padding-left: 18px;
+        @extend %label-p;
       }
       .images {
         opacity: 1;
